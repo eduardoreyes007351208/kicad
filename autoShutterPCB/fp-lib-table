@@ -1,4 +1,0 @@
-(fp_lib_table
-	(version 7)
-	(lib (name "Xiao RP2040") (type "KiCad") (uri "/Users/lalo/Downloads/XIAO_Series_Footprints") (options "") (descr ""))
-)

@@ -1,0 +1,11 @@
+Plotted to '/Users/lalo/kicad/autoShutterPCB/gerbers/autoShutterPCB-F_Cu.gbr'.
+Plotted to '/Users/lalo/kicad/autoShutterPCB/gerbers/autoShutterPCB-B_Cu.gbr'.
+Plotted to '/Users/lalo/kicad/autoShutterPCB/gerbers/autoShutterPCB-F_Paste.gbr'.
+Plotted to '/Users/lalo/kicad/autoShutterPCB/gerbers/autoShutterPCB-B_Paste.gbr'.
+Plotted to '/Users/lalo/kicad/autoShutterPCB/gerbers/autoShutterPCB-F_Silkscreen.gbr'.
+Plotted to '/Users/lalo/kicad/autoShutterPCB/gerbers/autoShutterPCB-B_Silkscreen.gbr'.
+Plotted to '/Users/lalo/kicad/autoShutterPCB/gerbers/autoShutterPCB-F_Mask.gbr'.
+Plotted to '/Users/lalo/kicad/autoShutterPCB/gerbers/autoShutterPCB-B_Mask.gbr'.
+Plotted to '/Users/lalo/kicad/autoShutterPCB/gerbers/autoShutterPCB-Edge_Cuts.gbr'.
+Created Gerber job file '/Users/lalo/kicad/autoShutterPCB/gerbers/autoShutterPCB-job.gbrjob'.
+Info: Done.
