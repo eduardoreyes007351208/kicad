@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at -10.85 -14.15 0)
 		(layer "F.SilkS")
-		(uuid "b768f503-f6c0-4e2f-a0d8-dc7640046151")
+		(uuid "2d0c6bca-d7ec-4bc3-9517-619f7c18e3e5")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "LCD_OLED_128X64_1.3_I2C"
 		(at -2.2 14.6 0)
 		(layer "F.Fab")
-		(uuid "b40a6893-0fdc-4010-be04-ff4aebdd7d15")
+		(uuid "7f76cd48-386e-4354-b9bc-fa1fd4b83871")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2f602843-63e5-418d-887d-ea5e63d13b03")
+		(uuid "10fda6d4-1ab7-4f99-b418-379a6ffdb6d9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4ad9bd06-c041-479c-a465-162afe448183")
+		(uuid "a6c37c68-f918-47c1-923e-fe2936120364")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,35 +58,35 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "640e4ba7-4c83-4c36-b4d3-d4038685e5b0")
+		(uuid "79a56129-784d-40ca-9237-8bb520323d30")
 	)
 	(pad "" np_thru_hole circle
 		(at -11.175 12.075)
 		(size 2.54 2.54)
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
-		(uuid "65ddf083-918a-48bc-9e15-5ddc4d105b55")
+		(uuid "42b878a1-867b-4a49-abed-ec4afab46ad2")
 	)
 	(pad "" np_thru_hole circle
 		(at -11.1 -12.075)
 		(size 2.54 2.54)
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
-		(uuid "0e2db92c-6143-4def-801d-fc9a7b9ffb2a")
+		(uuid "c83bd52d-664d-4646-8ea5-0afddc3e423c")
 	)
 	(pad "" np_thru_hole circle
 		(at 11.125 12.075)
 		(size 2.54 2.54)
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
-		(uuid "e8baba44-f85f-4a38-8c9a-b3f126fccd2e")
+		(uuid "08d940b3-9373-4bf6-b6dd-5a806f7d8550")
 	)
 	(pad "" np_thru_hole circle
 		(at 11.15 -12.1)
 		(size 2.54 2.54)
 		(drill 2.54)
 		(layers "*.Cu" "*.Mask")
-		(uuid "4524d832-a909-4fc5-a42d-aba6b0c642ad")
+		(uuid "f936b5cd-a8cf-42b7-a631-980f45c2f519")
 	)
 	(pad "1" thru_hole rect
 		(at -3.81 -12.03452)
@@ -95,7 +95,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "cf42f594-248b-49db-a67a-f02112f872fa")
+		(uuid "39f0ef88-42ac-441c-968e-5da57bb3c855")
 	)
 	(pad "2" thru_hole circle
 		(at -1.27 -12.03452)
@@ -104,7 +104,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "409deb88-0006-4803-b927-e3b36ce3a07d")
+		(uuid "04e6f781-23f0-4d4d-adea-ada8b8ebaa5a")
 	)
 	(pad "3" thru_hole circle
 		(at 1.27 -12.03452)
@@ -113,7 +113,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "6a0ffc20-e2be-4e2e-982c-d760173c45e0")
+		(uuid "9a109bc8-8bd3-4663-a9ec-ff0ffd6f6cc8")
 	)
 	(pad "4" thru_hole circle
 		(at 3.81 -12.03452)
@@ -122,13 +122,24 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(solder_mask_margin 0.102)
-		(uuid "ecfc405c-ed49-4d0b-b35e-dfdf20ae94c4")
+		(uuid "846c3f4c-ca77-453f-80b9-3845223dc5dd")
 	)
 	(embedded_fonts no)
 	(model "/home/lalo/kicad/3DModels/SSD1306_OLED_Display(128x64).step"
 		(opacity 0.6700)
 		(offset
 			(xyz 0 0.2032 2.4892)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+	(model "/Users/lalo/kicad/3DModels/SSD1306_OLED_Display(128x64).step"
+		(offset
+			(xyz -0.0762 0.1905 2.54)
 		)
 		(scale
 			(xyz 1 1 1)
