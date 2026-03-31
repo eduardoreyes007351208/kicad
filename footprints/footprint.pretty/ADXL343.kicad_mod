@@ -1,0 +1,212 @@
+(footprint "ADXL343"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 11.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "84a89836-ccad-4b36-a18b-924a0090ae9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ADXL343"
+		(at 0 13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f1d7797-d076-44bf-bfb1-bc881cdf49ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9504669-917a-4448-85d8-961c216eb820")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83ea00da-9058-4268-a9d9-ccd1e5f3a18d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -12.7 -8.89)
+		(end 12.7 8.89)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f060bc25-28f7-45a0-8bbe-19a4251990d6")
+	)
+	(fp_text user "VCC"
+		(at -7.442427 10.132777 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4884e846-e1b7-4322-9fd7-9fc45378f62f")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "3.3V"
+		(at -5.05 10 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1567bde6-99f6-46d5-bdd7-c7b38f765d3e")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -2.2 10.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b155d10f-21d8-4633-b0d9-180767918b70")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 14.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "10f8ecd1-9aca-4f39-88af-ab54f504edf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6.36016 6.35)
+		(size 1.778 1.778)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bba758b0-c662-4562-8767-186f3cda5f39")
+	)
+	(pad "1" thru_hole circle
+		(at -3.82016 -6.35)
+		(size 1.778 1.778)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51f6edf5-78f7-46af-aa1f-1bedc835a923")
+	)
+	(pad "2" thru_hole circle
+		(at -3.82016 6.35)
+		(size 1.778 1.778)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97125af6-c5ad-465a-a404-c18c09e9012d")
+	)
+	(pad "2" thru_hole circle
+		(at -1.28016 -6.35)
+		(size 1.778 1.778)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bab73d92-89fd-45ee-b1b1-01d6cd8785a7")
+	)
+	(pad "3" thru_hole circle
+		(at -1.28016 6.35)
+		(size 1.778 1.778)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8cf42520-5a4d-4c89-89df-2ac30898c384")
+	)
+	(pad "3" thru_hole circle
+		(at 1.25984 -6.35)
+		(size 1.778 1.778)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1658b40e-7c73-4c6b-b11e-d541bc3d99d5")
+	)
+	(pad "4" thru_hole circle
+		(at 1.25984 6.35)
+		(size 1.778 1.778)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f3747da-0eb7-4278-a06a-ee9265e0591d")
+	)
+	(pad "4" thru_hole circle
+		(at 3.79984 -6.35)
+		(size 1.778 1.778)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "49ff507d-5d6c-432b-94a5-c4e549f5a0d1")
+	)
+	(pad "5" thru_hole circle
+		(at 3.79984 6.35)
+		(size 1.778 1.778)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6db74669-f651-49ff-8cbe-d3e4b3427fc2")
+	)
+	(pad "6" thru_hole circle
+		(at 6.33984 6.35)
+		(size 1.778 1.778)
+		(drill 0.9906)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9bacfc8e-ae94-4cda-b603-f04ee11ddedf")
+	)
+	(embedded_fonts no)
+	(model "/Users/lalo/kicad3DModels/STEP/AdafruitADXL343/ADXL343STEMMAQT.step"
+		(offset
+			(xyz -12.7 -8.89 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
