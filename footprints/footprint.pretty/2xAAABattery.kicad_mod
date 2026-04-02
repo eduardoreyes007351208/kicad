@@ -1,0 +1,112 @@
+(footprint "2xAAABattery"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "93db39e5-d22f-44b0-9cb5-31cd512f0ba2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery"
+		(at -0.3 1.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "23bf3dbb-3d8f-4357-b20d-99fb2f0338d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fca9ce7-313b-4cfd-9d88-8eb91183af2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb395c57-360d-458f-8241-7c9d37abdfed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "3.3V (+)"
+		(at -4.15 -1.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a371f8bb-b22f-415c-9555-be56a4308961")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND (-)"
+		(at 0.8 -1.55 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1492b0c3-4c4b-4002-92a1-31e5d7cf18cb")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.3 2.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9a29350f-d0e5-47cb-8077-bfbb0e765cc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.4 -4.45)
+		(size 3.9878 2.99974)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1968503937)
+		(uuid "2b43b803-056d-4645-8761-6ae9408ae813")
+	)
+	(pad "2" smd roundrect
+		(at 2.35 -4.45)
+		(size 3.9878 2.99974)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1968503937)
+		(uuid "a9b13c80-3159-4536-bcd5-abd574400a9c")
+	)
+	(embedded_fonts no)
+)
